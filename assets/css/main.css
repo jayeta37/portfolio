@@ -777,6 +777,16 @@ section,
   border: 2px solid var(--accent-color);
 }
 
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#print-resume {
+  margin-left: auto;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
