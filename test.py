@@ -1,6 +1,5 @@
-try:
-    import flask
-    print("Flask imported successfully")
+import os
+from dotenv import load_dotenv
 
-except ModuleNotFoundError as e:
-    print("Error: ", e)
+load_dotenv()
+print(os.getenv("MAIL_USERNAME"))
