@@ -4,6 +4,8 @@ from flask import Flask, redirect, render_template, request, url_for
 from flask_mail import Mail, Message
 from dotenv import load_dotenv
 import os
+import pandas as pd
+from datetime import date
 
 load_dotenv()
 
@@ -20,9 +22,23 @@ mail = Mail(app=app)
 
 @app.route("/")
 def home():
+    with open("static/data/about.txt", "r") as f:
+        about = f.readlines()
+
+    with open("static/data/monologue.txt", "r") as f:
+        monologue = f.readlines()
+    dob = date(1996, 3, 15)
+    age = int((date.today() - dob).days / 365.2425)
+
+    skills = pd.read_csv("static/data/skills.csv")
+    skills = skills.to_dict(orient='records')
+    mid = int(len(skills)/2)
+    skills_l = skills[:mid]
+    skills_r = skills[mid:]
+
     success = request.args.get('success')
     error = request.args.get('error')
-    return render_template("index.html", success=success, error=error)
+    return render_template("index.html", about=about, monologue=monologue, age=age, skills_l=skills_l, skills_r=skills_r, success=success, error=error)
 
 @app.route("/send-mail", methods=['GET', 'POST'])
 def send_mail():
