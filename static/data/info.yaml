@@ -1,0 +1,192 @@
+about_me:
+  - Hello, I am Jayesh Santosh Tawade, a passionate data engineer and AI enthusiast with a Master’s degree in Embedded Systems Engineering specializing in Artificial Intelligence. My journey has been shaped by diverse experiences, including working as a Research Associate at the University of Regensburg and contributing as an Embedded Systems Engineer at Goodbot.
+  - I thrive on solving complex challenges, such as designing data pipelines, developing machine learning models, and deploying scalable solutions. My projects have ranged from stabilizing robotic actions to predictive modeling for disaster management and sentiment analysis for stock market forecasting. I am also deeply committed to honing my problem-solving skills by regularly tackling data structure and algorithm (DSA) challenges and staying updated on advancements in technology.
+  - Beyond my professional pursuits, I love watching anime, reading manga, and listening to music and thought-provoking podcasts. I am passionate about conversations about space and time, and I find working out to be a great way to stay active and focused. These interests fuel my creativity and help me approach challenges with a fresh perspective.
+
+monologue:
+  - I began my academic journey with a Bachelor of Engineering in Electronics from the University of Mumbai, India. During my undergraduate studies, I developed a strong foundation in core engineering principles, problem-solving and programming, which set the stage for my future endeavors in advanced technologies.
+  - Building on this foundation, I pursued a Master’s degree in Embedded Systems Engineering at Albert Ludwigs Universität Freiburg, Germany, specializing in Artificial Intelligence. This program allowed me to delve deep into machine learning, data processing and system optimization while gaining hands-on experience in implementing AI-based solutions. My Master’s thesis focused on stabilizing robotic end-effectors using one-shot imitation learning, showcasing my ability to address real-world challenges with innovative AI applications.
+
+personal_info:
+  name: "Jayesh Santosh Tawade"
+  email: "jay37tawade@gmail.com"
+  date_of_birth: "15th March 1996"
+  phone: "+49 15214130103"
+  city: Regensburg
+  country: Germany
+  github: "https://github.com/jayeta37"
+  linkedin: "https://www.linkedin.com/in/jayesh-santosh-tawade-50371b129/"
+  highest_degree: Master of Science
+  address: "Altersheimweg 20, 85072, Eichstätt, Germany"
+
+education:
+  - degree: "Master of Science in Embedded Systems Engineering"
+    university: "Albert Ludwigs Universität Freiburg"
+    location: "Freiburg, Germany"
+    duration: "10.2020 - 03.2024"
+    specialization: "Artificial Intelligence"
+    thesis: "Refining Robotic Motions for Visual Servoing with Long-Horizon Tasks"
+  - degree: "Bachelor of Engineering in Electronics"
+    university: "University of Mumbai"
+    location: "Mumbai, India"
+    duration: "07.2014 - 06.2018"
+    specialization: ""
+    thesis: "Grid-Synchronized Solar Micro Inverter System"
+
+
+skills:
+  - name: Python
+    proficiency: 80
+  - name: C/C++
+    proficiency: 60
+  - name: Java
+    proficiency: 80
+  - name: C#
+    proficiency: 65
+  - name: SQL
+    proficiency: 65
+  - name: JavaScript
+    proficiency: 80
+  - name: Microcontroller Programming (Arduino/ESP32)
+    proficiency: 65
+  - name: PyTorch/Tensorflow
+    proficiency: 80
+  - name: Scikit-Learn
+    proficiency: 75
+  - name: Git
+    proficiency: 70
+  - name: Containers (Docker)
+    proficiency: 60
+  - name: Robot Operating System
+    proficiency: 60
+  - name: CAD Modelling (OnShape)
+    proficiency: 75
+  - name: Documentation (Office Suite/LaTeX)
+    proficiency: 90
+  - name: LTSpice
+    proficiency: 65
+  - name: KiCAD
+    proficiency: 60
+
+languages:
+  - name: "English"
+    proficiency: "C1"
+  - name: "German"
+    proficiency: "B1"
+  - name: "Hindi"
+    proficiency: "Native"
+  - name: "Marathi"
+    proficiency: "Native"
+
+hobbies:
+  - "Calisthenics"
+  - "Cricket"
+  - "Swimming"
+  - "Cooking"
+  - "Sketching"
+  - "Anime"
+  - "Sci-Fi"
+
+work_experience:
+  - job_title: "Research Associate"
+    company: "University of Regensburg"
+    location: "Regensburg, Germany"
+    duration: "09. 2024 - present"
+    responsibilities:
+      - "Pursuing research in multi-human-multi-robot collaboration, investigating task allocation, control sharing, and human ergonomics for effective team dynamics in HRC environments."
+      - "Responsible for setting up the robot lab, including drafting procurement plans, researching hardware, software, and suppliers, to meet research needs."
+      - "Assist in the development of teaching material, conduct literature reviews, and contribute to academic research papers and seminars."
+      - "Supervise Bachelor and Master thesis students, providing guidance in their research and writing process."
+      - "Collaborate with professors to create academic content and exercises for Object-Oriented Programming (OOP) courses, focusing on classes, objects, constructors, and control structures."
+
+  - job_title: "Embedded Software Engineer"
+    company: "Goodbot"
+    location: "Freiburg, Germany"
+    duration: "05.2023 - 01.2024"
+    responsibilities:
+      - "Integrated hardware and software for lab robotics, proficient in microcontroller programming (Arduino, ESP32, RP2040) with C and Python."
+      - "Developed electrical schematics with KiCAD and assembled PCBs."
+      - "Led the IPX2 compliance, independently negotiating with suppliers for optimal sealing materials."
+      - "Improved servo motor angle prediction accuracy using machine learning algorithms."
+
+  - job_title: "Assembly Specialist"
+    company: "Micropelt"
+    location: "Umkirch, Germany"
+    duration: "09.2021 - 03.2023"
+    responsibilities:
+      - "Oversaw radiator valve production, including SMD soldering and packaging."
+      - "Streamlined electronic circuit board debugging and repairs."
+      - "Detailed documentation for quality control and standardized training procedures."
+
+  - job_title: "Maintenance Engineer Trainee"
+    company: "Mahindra Accelo"
+    location: "Pune, India"
+    duration: "10.2019 - 09.2020"
+    responsibilities:
+      - "Maintained and repaired Servo Press machinery specializing in hydraulic and pneumatic systems."
+      - "Developed a CMS using ASP.NET and integrated a Python ML model for statistical evidence tracking."
+
+  - job_title: "Software Developer Trainee"
+    company: "Idealake"
+    location: "Mumbai, India"
+    duration: "07.2019 - 09.2019"
+    responsibilities:
+      - "Developed a financial website using MVC architecture on the .NET Framework."
+      - "Enhanced functionality with WCF services for seamless data exchange."
+
+projects:
+  - title: "Master's Thesis: Refining Robotic Motions for Visual Servoing with Long-Horizon Tasks"
+    description:
+      - "Implemented one-shot imitation learning for long-horizon tasks using PyTorch."
+      - "Improved object placement accuracy by refining optical flow-generated movements with OpenCV."
+      - "Integrated OpenCV and RealSense cameras for depth processing."
+  - title: "Bachelor's Thesis: Grid-Synchronized Solar Micro Inverter System"
+    description:
+      - "Implemented a cost-effective solar power system with a TMS320xx processor for micro-inverter control."
+      - "Designed and assembled PCBs using KiCAD."
+  - title: "Disaster Risk Management using Satellite Imagery"
+    description:
+      - "Developed and deployed a flood detection model using Sentinel-1 imagery and TensorFlow."
+      - "Employed ResNet18 for transfer learning and real-time response pipelines."
+
+certifications:
+  - name: "Data Cleaning"
+    provider: "Kaggle"
+    date: "Dec. 2024"
+    link: "https://www.kaggle.com/learn/certification/jayeshsantoshtawade/data-cleaning"
+  - name: "Feature Engineering"
+    provider: "Kaggle"
+    date: "Dec. 2024"
+    link: "https://www.kaggle.com/learn/certification/jayeshsantoshtawade/feature-engineering"
+  - name: "Time Series"
+    provider: "Kaggle"
+    date: "Oct. 2024"
+    link: "https://www.kaggle.com/learn/certification/jayeshsantoshtawade/time-series"
+  - name: "Pandas"
+    provider: "Kaggle"
+    date: "Apr. 2024"
+    link: "https://www.kaggle.com/learn/certification/jayeshsantoshtawade/pandas"
+  - name: "Intermediate Machine Learning"
+    provider: "Kaggle"
+    date: "Jan. 2024"
+    link: "https://www.kaggle.com/learn/certification/jayeshsantoshtawade/intermediate-machine-learning"
+  - name: "Deep Learning and Computer Vision A-Z: OpenCV, SSD & GANs"
+    provider: "Udemy"
+    date: "Mar. 2023"
+    link: "https://www.udemy.com/certificate/UC-83c7f2fb-fe3d-4cc5-a2ac-46c9e9c69d4e/"
+  - name: "Computer Vision"
+    provider: "Kaggle"
+    date: "Jan. 2023"
+    link: "https://www.kaggle.com/learn/certification/jayeshsantoshtawade/computer-vision"
+  - name: "Intro to Deep Learning"
+    provider: "Kaggle"
+    date: "Oct. 2022"
+    link: "https://www.kaggle.com/learn/certification/jayeshsantoshtawade/intro-to-deep-learning"
+  - name: "Microsoft Technology Associate: Software Development Fundamentals"
+    provider: "Microsoft"
+    date: "Aug. 2016"
+
+extracurricular_activities:
+  - "Member of the Organizing Committee, Vauban Sommerfest (2023)."
+  - "Coordinator of the organizing committee for ‘Oscillation’ (2017)."
+  - "Helped with publicity, marketing, and sponsorships for Fusion cultural festival (2015)."
