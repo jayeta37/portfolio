@@ -86,26 +86,20 @@
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
-
   </header>
 
   <main class="main">
-
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
       <img src="{{ url_for('static', filename = '/img/background.jpeg') }}" alt="" data-aos="fade-in" class="">
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>{{ data.personal_info.name }}</h2>
         <p>I am a <span class="typed" data-typed-items="Robotics Developer, Machine Learning Engineer, Computer Vision Engineer, Data Scientist, Tutor, Video Editor">Robotics Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       </div>
-
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
@@ -115,7 +109,6 @@
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
             <img src="{{ url_for('static', filename = '/img/profile.jpeg') }}" class="img-fluid" alt="">
@@ -151,37 +144,31 @@
             </p>
           </div>
         </div>
-
       </div>
-
     </section><!-- /About Section -->
 
    <!-- Resume Section -->
 <section id="resume" class="resume section">
-
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
     <div class="resume-header d-flex justify-content-between align-items-center">
       <h2>Resume</h2>
       <a id="print-resume" class="btn btn-dark bi bi-printer-fill" href="{{ url_for('static', filename = '/Jayesh_Resume.pdf') }}", download="Jayesh_Tawade_CV.pdf"></a>
     </div>  
-      
     <p>A comprehensive summary of education, professional experience and achievements in the field of Embedded Systems, AI and Robotics.</p>
   </div><!-- End Section Title -->
 
   <div class="container">
-
     <div class="row">
-
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
         <h3 class="resume-title">Summary</h3>
         <div class="resume-item pb-0">
           <h4>Jayesh Santosh Tawade</h4>
           <p><em>Proficient in Embedded Systems Engineering, Artificial Intelligence and Robotics with hands-on experience in research, software development and engineering solutions for multi-human-multi-robot collaboration. Known for problem-solving and technical expertise in various frameworks and programming environments.</em></p>
           <ul>
-            <li>Regensburg, Germany</li>
-            <li>+49 15214130103</li>
-            <li>jay37tawade@gmail.com</li>
+            <li>{{ data.personal_info.city }}, {{ data.personal_info.country }}</li>
+            <li>{{ data.personal_info.phone }}</li>
+            <li>{{ data.personal_info.email }}</li>
           </ul>
         </div><!-- End Resume Item -->
 
@@ -262,28 +249,20 @@
             </div><!-- End Skills Item -->
             {% endfor %}
           </div>
-    
         </div>
-    
       </div>
-    
     </section><!-- /Skills Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
         <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
       </div><!-- End Section Title -->
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row gy-4">
-
           <div class="col-lg-5">
-
             <div class="info-wrap">
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
@@ -292,15 +271,13 @@
                   <p>{{ data.personal_info.address }}</p>
                 </div>
               </div><!-- End Info Item -->
-
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3>Call Me</h3>
-                  <p><a href="tel:+49 15214130103">{{ data.personal_info.phone }}</a></p>
+                  <p><a href="tel:{{ data.personal_info.phone }}">{{ data.personal_info.phone }}</a></p>
                 </div>
               </div><!-- End Info Item -->
-
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
@@ -308,7 +285,6 @@
                   <p><a href="maito:{{ data.personal_info.email }}">{{ data.personal_info.email }}</a></p>
                 </div>
               </div><!-- End Info Item -->
-
               <!-- <iframe src="https://www.google.com/maps/embed?pb=!3m2!1e3!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x479f1ed00413487d:0xbd0354b077c6fa69!2m2!1d11.1776323!2d48.8939813?entry=ttu&g_ep=EgoyMDI1MDEwMS4wIKXMDSoASAFQAw%3D%3D" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
             </div>
           </div>

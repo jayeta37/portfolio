@@ -1,5 +1,7 @@
+from concurrent.futures import thread
 from email import message
 from math import e
+import threading
 from flask import Flask, redirect, render_template, request, url_for
 from flask_mail import Mail, Message
 from dotenv import load_dotenv
@@ -20,6 +22,14 @@ app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 
 mail = Mail(app=app)
+
+def send_email_async(message):
+    with app.app_context():
+        try:
+            mail.send(message)
+            print("Email sent")
+        except Exception as e:
+            print(f"Email not sent: {e}")
 
 def load_yaml():
     with open("static/data/info.yaml", 'r') as stream:
@@ -44,22 +54,28 @@ def home():
     error = request.args.get('error')
     return render_template("index.html", data=resume_data, age=age, skills_l=skills_l, skills_r=skills_r, success=success, error=error)
 
-@app.route("/send-mail", methods=['GET', 'POST'])
+@app.route("/send-mail", methods=['POST'])
 def send_mail():
     name = request.form.get('name')
     email = request.form.get('email')
     subject = request.form.get('subject')
     message = request.form.get('message')
 
-    msg = Message(subject=subject, sender=app.config['MAIL_USERNAME'], recipients=['jay37tawade@gmail.com'])
+    msg = Message(
+        subject=subject, 
+        sender=app.config['MAIL_USERNAME'], 
+        recipients=['jay37tawade@gmail.com']
+        )
     msg.body = f"{name} ({email})\nPosted:\n\n{message}"
 
     try:
-        mail.send(msg)
+        thread = threading.Thread(target=send_email_async, args=(msg,))
+        thread.start()
+        # mail.send(msg)
         return redirect(url_for('home', success=True))
         # return render_template("index.html", success=True, error=None)
     except Exception as e:
         return redirect(url_for("home", error=str(e)))
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run(debug=True)
