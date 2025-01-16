@@ -1,0 +1,6 @@
+Flask
+Flask-Mail
+PyYAML
+gunicorn
+pandas
+python-dotenv
