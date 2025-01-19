@@ -7,8 +7,10 @@ monologue:
   - I began my academic journey with a Bachelor of Engineering in Electronics from the University of Mumbai, India. During my undergraduate studies, I developed a strong foundation in core engineering principles, problem-solving and programming, which set the stage for my future endeavors in advanced technologies.
   - Building on this foundation, I pursued a Master’s degree in Embedded Systems Engineering at Albert Ludwigs Universität Freiburg, Germany, specializing in Artificial Intelligence. This program allowed me to delve deep into machine learning, data processing and system optimization while gaining hands-on experience in implementing AI-based solutions. My Master’s thesis focused on stabilizing robotic end-effectors using one-shot imitation learning, showcasing my ability to address real-world challenges with innovative AI applications.
 
+professions: "Robotics Developer, Machine Learning Engineer, Computer Vision Engineer, Data Scientist, Tutor, Content Writer, Video Editor"
+
 personal_info:
-  name: "Jayesh Santosh Tawade"
+  name: "Jayesh Tawade"
   email: "jay37tawade@gmail.com"
   date_of_birth: "15th March 1996"
   phone: "+49 15214130103"
@@ -190,3 +192,11 @@ extracurricular_activities:
   - "Member of the Organizing Committee, Vauban Sommerfest (2023)."
   - "Coordinator of the organizing committee for ‘Oscillation’ (2017)."
   - "Helped with publicity, marketing, and sponsorships for Fusion cultural festival (2015)."
+
+portfolio:
+  - title: "Struggles of teaching with Engman in Germany."
+    category: filter-books
+    description: "A blog post reflecting on the challenges and rewards of teaching in a foreign country, focusing on the cultural differences and language barriers encountered while teaching programming concepts to students in Germany."
+    image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*V6b1QPnXyza9EXzueYjIjQ.jpeg"
+    link: "https://medium.com/@jay37tawade/struggles-of-teaching-with-engman-in-germany-f978dba8b65a"
+    tags: ["Teaching", "Programming", "Cultural Exchange", "Education"]
