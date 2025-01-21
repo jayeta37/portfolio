@@ -194,9 +194,18 @@ extracurricular_activities:
   - "Helped with publicity, marketing, and sponsorships for Fusion cultural festival (2015)."
 
 portfolio:
-  - title: "Struggles of teaching with Engman in Germany."
-    category: filter-books
-    description: "A blog post reflecting on the challenges and rewards of teaching in a foreign country, focusing on the cultural differences and language barriers encountered while teaching programming concepts to students in Germany."
-    image: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*V6b1QPnXyza9EXzueYjIjQ.jpeg"
+  - title: "Refining Robotic Motions for Visual Servoing with Long-Horizon Tasks"
+    category: "filter-projects"
+    description: "A Master's thesis project focusing on improving object placement accuracy by refining robotic movements using one-shot imitation learning and optical flow techniques."
+    thumbnail: "static/data/thumbnail_thesis.png"  
+    video: "https://www.youtube.com/embed/emjk6bjiyzU" 
+    link: "https://drive.google.com/file/d/1jnC06NDKSeeeS3nBYhPq-7bgKb-7A83Z/view?usp=sharing" 
+    tags: ["Robotics", "Machine Learning", "Computer Vision"]
+
+  - title: "Struggles of Teaching with EngMan in Germany"
+    category: "filter-content"
+    description: "A blog post reflecting on the challenges and rewards of teaching in a foreign country."
+    thumbnail: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*V6b1QPnXyza9EXzueYjIjQ.jpeg"
+    video: ""
     link: "https://medium.com/@jay37tawade/struggles-of-teaching-with-engman-in-germany-f978dba8b65a"
-    tags: ["Teaching", "Programming", "Cultural Exchange", "Education"]
+    tags: ["Teaching", "Programming", "Education"]
