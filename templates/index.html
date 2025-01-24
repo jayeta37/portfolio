@@ -9,8 +9,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{ url_for('static', filename = '/img/logo_white_version.ico') }}" rel="icon">
-  <link href="{{ url_for('static', filename = '/img/logo_white_version.ico') }}" rel="apple-touch-icon">
+  <link href="{{ url_for('static', filename = '/img/logo_white_version.png') }}" rel="icon">
+  <link href="{{ url_for('static', filename = '/img/logo_white_version.png') }}" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -192,11 +192,10 @@
         <h3 class="resume-title">Education</h3>
         {% for education in data.education %}
         <div class="resume-item">
-          <h4>{{ education['degree'] }}</h4>
+          <h4>{{ education['degree'] }} {% if education['specialization'] %} with specialization in {{ education['specialization'] }} {% endif %}</h4>
           <h5>{{ education['duration'] }}</h5>
           <p><em>{{ education['university'] }}, {{ education['location'] }}</em></p>
-          <p>{{ education['specialization'] }}</p>
-          <p>{{ education['thesis'] }}</p>
+          <h6>{{ education['thesis'] }}</h6>
         </div><!-- End Resume Item -->
         {% endfor %}
 
