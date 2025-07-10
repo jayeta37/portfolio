@@ -1,7 +1,7 @@
 about_me:
   - Hello, I am Jayesh Santosh Tawade, a passionate data engineer and AI enthusiast with a Master’s degree in Embedded Systems Engineering specializing in Artificial Intelligence. My journey has been shaped by diverse experiences, including working as a Research Associate at the University of Regensburg and contributing as an Embedded Systems Engineer at Goodbot.
-  - I thrive on solving complex challenges, such as designing data pipelines, developing machine learning models, and deploying scalable solutions. My projects have ranged from stabilizing robotic actions to predictive modeling for disaster management and sentiment analysis for stock market forecasting. I am also deeply committed to honing my problem-solving skills by regularly tackling data structure and algorithm (DSA) challenges and staying updated on advancements in technology.
-  - Beyond my professional pursuits, I love watching anime, reading manga, and listening to music and thought-provoking podcasts. I am passionate about conversations about space and time, and I find working out to be a great way to stay active and focused. These interests fuel my creativity and help me approach challenges with a fresh perspective.
+  - I thrive on solving complex challenges, such as designing data pipelines, developing machine learning models and deploying scalable solutions. My projects have ranged from stabilizing robotic actions to predictive modeling for disaster management and sentiment analysis for stock market forecasting. I am also deeply committed to honing my problem-solving skills by regularly tackling data structure and algorithm (DSA) challenges and staying updated on advancements in technology.
+  - Beyond my professional pursuits, I love watching anime, reading manga,\ and listening to music and thought-provoking podcasts. I am passionate about conversations about space and time. I find working out to be a great way to stay active and focused. These interests fuel my creativity and help me approach challenges with a fresh perspective.
 
 monologue:
   - I began my academic journey with a Bachelor of Engineering in Electronics from the University of Mumbai, India. During my undergraduate studies, I developed a strong foundation in core engineering principles, problem-solving and programming, which set the stage for my future endeavors in advanced technologies.
@@ -95,11 +95,11 @@ work_experience:
     location: "Regensburg, Germany"
     duration: "09. 2024 - present"
     responsibilities:
-      - "Pursuing research in multi-human-multi-robot collaboration, investigating task allocation, control sharing, and human ergonomics for effective team dynamics in HRC environments."
-      - "Responsible for setting up the robot lab, including drafting procurement plans, researching hardware, software, and suppliers, to meet research needs."
-      - "Assist in the development of teaching material, conduct literature reviews, and contribute to academic research papers and seminars."
+      - "Pursuing research in multi-human-multi-robot collaboration, investigating task allocation, control sharing and human ergonomics for effective team dynamics in HRC environments."
+      - "Responsible for setting up the robot lab, including drafting procurement plans, researching hardware, software and suppliers, to meet research needs."
+      - "Assist in the development of teaching material, conduct literature reviews and contribute to academic research papers and seminars."
       - "Supervise Bachelor and Master thesis students, providing guidance in their research and writing process."
-      - "Collaborate with professors to create academic content and exercises for Object-Oriented Programming (OOP) courses, focusing on classes, objects, constructors, and control structures."
+      - "Collaborate with professors to create academic content and exercises for Object-Oriented Programming (OOP), Process Mining, Cyber Security Simulation and Robotics courses."
 
   - job_title: "Embedded Software Engineer"
     company: "Goodbot"
@@ -191,7 +191,7 @@ certifications:
 extracurricular_activities:
   - "Member of the Organizing Committee, Vauban Sommerfest (2023)."
   - "Coordinator of the organizing committee for ‘Oscillation’ (2017)."
-  - "Helped with publicity, marketing, and sponsorships for Fusion cultural festival (2015)."
+  - "Helped with publicity, marketing and sponsorships for Fusion cultural festival (2015)."
 
 portfolio:
   - title: "Refining Robotic Motions for Visual Servoing with Long-Horizon Tasks"
